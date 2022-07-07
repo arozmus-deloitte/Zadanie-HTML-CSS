@@ -1,0 +1,62 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient(rgb(255, 191, 138), rgba(253, 198, 114, 0.26), white, white);
+}
+
+.background {
+    height: 40rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+
+}
+
+#mainImage {
+    height: 15rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    object-fit: contain;
+    text-align: center;
+    
+}
+
+.bottom {
+    background-color: rgb(255, 191, 138);
+    background-image: none;
+    width: 100%;
+    height: 30rem;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: center;
+    padding-bottom: 2rem;
+}
+
+
+p1{
+    color: white;
+    font-size: 30px;
+}
+#bottomImage {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    object-fit: cover;
+}
+
+
+.bottomBar {
+    background-color: white;
+    bottom: 0;
+    right: 0;
+    height: 2rem;
+    color: gray;
+    padding: 10px;
+}

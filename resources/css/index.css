@@ -1,6 +1,6 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-image: linear-gradient(rgb(255, 191, 138), rgba(253, 198, 114, 0.26), white, white);
+    background-image: linear-gradient(180deg, rgba(255,191,138,1) 0%, rgba(244,226,211,1) 17%, rgba(255,255,255,1) 29%);
 }
 
 .background {
@@ -10,17 +10,34 @@ body {
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     place-items: center;
+    padding: 100px;
 }
 
-
-#mainImage {
-    height: 15rem;
-    width: 25rem;
+.backgroundImage{
     background-color: white;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.137);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#mainImage {
+    height: 150px;
+    width: 300px;
     object-fit: contain;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.backgroundImage:hover{
+    transform: translate(-40px);
+    transition: 0.5s;
+    color: rgb(204, 116, 0);
+    font-size: 25px;
+    transform: scale(120%);
+    box-shadow: 0 5px 5px 0 rgba(255, 168, 6, 0.603), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    border-color: rgb(255, 168, 6, 0.603);
 }
 
 .bottom {
@@ -29,6 +46,7 @@ body {
     justify-content: center;
     place-items: center;
     padding: 30px;
+    margin: -10px;
 }
 
 
@@ -47,7 +65,7 @@ p1{
     display: flex;
     justify-content: space-around;
     margin: auto;
-    padding: 20px;
+    padding: 50px;
 }
 
 #bottomImage {
@@ -59,16 +77,18 @@ p1{
 }
 
 #bottomImage:hover{
-    width: 350px;
-    height: 400px;
+    transform: scale(120%);
     transition: 0.5s;
+    filter: grayscale(100%);
 }
 
 .bottomBar {
     background-color: white;
+    width: 100%;
     bottom: 0;
     right: 0;
     height: 2rem;
     color: gray;
     padding: 10px;
+    margin: -10px;
 }

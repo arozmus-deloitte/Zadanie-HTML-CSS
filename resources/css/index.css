@@ -57,7 +57,7 @@ body {
 p1{
     color: white;
     font-size: 30px;
-    margin-left: 250px;
+    padding-left: 200px;
 }
 
 .bottomImages{
@@ -84,11 +84,23 @@ p1{
 
 .bottomBar {
     background-color: white;
-    width: 100%;
-    bottom: 0;
-    right: 0;
     height: 2rem;
     color: gray;
-    padding: 10px;
+    padding: 20px;
     margin: -10px;
+}
+
+.textBottom{
+    width: auto;
+    float: left;
+}
+
+.icons{
+    position: relative;
+    float: right;
+    font-size: 30px;
+}
+
+#icon{
+    padding-right: 5px;
 }

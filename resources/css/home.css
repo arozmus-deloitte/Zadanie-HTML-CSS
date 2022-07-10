@@ -1,66 +1,104 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-image: linear-gradient(180deg, rgba(255,191,138,1) 0%, rgba(244,226,211,1) 17%, rgba(255,255,255,1) 29%);
+    background-image: linear-gradient(180deg, rgba(255, 191, 138, 1) 0%, rgba(244, 226, 211, 1) 17%, rgba(255, 255, 255, 1) 29%);
 }
 
-#logo{
-    width: 8%;
+#logo {
+    width: 9%;
 }
 
-.navbar{
-    padding: 20px;
+.navbar {
+    padding: 35px;
     justify-content: center;
     width: 100%;
     height: 100px;
     color: white;
+    align-items: center;
 }
 
-.navbarText{
+.navbarText {
     padding-right: 100px;
     float: right;
-    justify-content: space-around;
 }
 
-.subscribe{
-    height: 400px;
+p2 {
+    padding-inline: 20px;
+}
+
+p2:hover {
+    text-decoration: underline;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+.subscribe {
     display: flex;
     justify-content: space-around;
+    width: 90%;
+    
 }
 
-#cooking{
+#cooking {
     width: 20%;
     height: fit-content;
     float: right;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
 
-/* #btnSubscribe
-{
+#formSubscribe {
+    padding-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    width: 350px;
+    align-items: center;
+}
+
+#fieldSubscribe {
+    border: none;
+    border-radius: 10px;
+    color: rgba(128, 128, 128, 0.404);
+    font-size: 15px;
+    height: fit-content;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.137);
+}
+
+#fieldSubscribe:focus {
+    color: black;
+    border: none;
+    outline: none;
+}
+
+#btnSubscribe {
     background-color: rgb(241, 144, 18);
     color: white;
     font-size: 15px;
     padding: 10px;
     width: 100px;
-    height: auto;
     border-radius: 10px;
     border: none;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
-} */
-
-/* #btnSubscribe:hover{
-    scale: 110%;
-} */
-
-.subscribeHeader{
-    color: rgb(71, 71, 71);
-    font-weight: 400;
-    padding: 50px;
 }
 
-.firstSubscribeHeader{
+#btnSubscribe:hover {
+    background-color: rgb(147, 85, 4);
+    transition: 0.5s;
+}
+
+.subscribeHeader {
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.firstSubscribeHeader {
     font-size: 35px;
 }
 
-.secondSubscribeHeader{
+.secondSubscribeHeader {
     padding-top: 10px;
     font-size: 20px;
 }
@@ -77,7 +115,7 @@ body {
 
 
 
-.backgroundImage{
+.backgroundImage {
     background-color: white;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.137);
@@ -94,7 +132,7 @@ body {
     object-fit: contain;
 }
 
-.backgroundImage:hover{
+.backgroundImage:hover {
     transform: translate(-40px);
     transition: 0.5s;
     color: rgb(204, 116, 0);
@@ -114,17 +152,17 @@ body {
 }
 
 
-.bottomBlock{
+.bottomBlock {
     margin-top: 30px;
 }
 
-p1{
+p1 {
     color: white;
     font-size: 30px;
     font-weight: 100;
 }
 
-.bottomImages{
+.bottomImages {
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -142,10 +180,10 @@ p1{
     object-fit: cover;
 }
 
-#bottomImage:hover{
+#bottomImage:hover {
     transform: scale(120%);
     transition: 0.5s;
-    filter: grayscale(100%);
+    filter: brightness(50%);
 }
 
 .bottomBar {
@@ -156,16 +194,15 @@ p1{
     margin: -10px;
 }
 
-.textBottom{
+.textBottom {
     width: auto;
     float: left;
 }
 
-.icons{
+.icons {
     position: relative;
     float: right;
     font-size: 30px;
 }
 
-#icon{
-}
+#icon {}

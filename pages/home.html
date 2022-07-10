@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link href="./../resources/css/index.css" type="text/css" rel="stylesheet">
+    <link href="./../resources/css/home.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4d61b6865d.js" crossorigin="anonymous"></script>
     <title>EasyMeals</title>
 </head>
@@ -11,10 +11,10 @@
     <div class="navbar">
         <img src="./../img/png/logo.png" alt="Logo" id="logo">
         <div class="navbarText">
-            Home
-            Recipes
-            About
-            Contact
+            <p2>Home</p2>
+            <p2>Recipes</p2>
+            <p2>About</p2>
+            <p2>Contact</p2>
         </div>
         <div class="subscribe">
             <div class="subscribeHeader">
@@ -25,7 +25,10 @@
                 <div class="secondSubscribeHeader">
                     Explore 250+ recipes
                 </div>
-                <!-- <button id="btnSubscribe" type="submit">Subscribe</button> -->
+                <form id="formSubscribe">
+                    <input type="text" id="fieldSubscribe" onfocus="this.value=''" name="email" value="Enter your e-mail"><br>
+                    <input type="submit" id="btnSubscribe" value="Subscribe">
+                </form>
             </div>
             <img src="./../img/png/cooking.png" alt="Cocking" id="cooking">
         </div>

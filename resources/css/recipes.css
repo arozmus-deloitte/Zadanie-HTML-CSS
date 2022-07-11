@@ -4,9 +4,9 @@ body {
 }
 
 #logo {
-    width: 8%;
+    width: 5%;
     padding-left: 3%;
-    margin-top: -20px;
+    margin-top: 0px;
 }
 
 .navbar {
@@ -16,11 +16,15 @@ body {
     align-items: center;
     padding-top: 3%;
     background-color: rgb(255, 191, 138);
+    margin: -10px;
+    padding: 20px;
+
 }
 
 .navbarText {
     padding-right: 100px;
     float: right;
+    margin-top: 20px;
 }
 
 a{
@@ -42,8 +46,6 @@ a:hover{
     display: flex;
     justify-content: space-around;
     width: 90%;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 #eating {
@@ -109,4 +111,23 @@ a:hover{
 .secondSubscribeHeader {
     padding-top: 10px;
     font-size: 20px;
+}
+
+.bottomBar {
+    background-color: white;
+    height: 2rem;
+    color: gray;
+    padding: 20px;
+    margin: -10px;
+}
+
+.textBottom {
+    width: auto;
+    float: left;
+}
+
+.icons {
+    position: relative;
+    float: right;
+    font-size: 30px;
 }

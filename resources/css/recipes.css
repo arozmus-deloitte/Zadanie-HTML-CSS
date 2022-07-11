@@ -176,11 +176,14 @@ a:hover{
 table{
     width: 500px;
     height: 500px;
-    
     border-collapse: collapse;
-    border-radius: 30px;
+    border-radius: 10px;
     border-style: hidden; 
     box-shadow: 0 0 0 1px  rgb(85, 85, 85); 
+}
+
+table:first-child:hover{
+    border-radius: 10px;
 }
 
 td{
@@ -234,6 +237,12 @@ li{
     padding: 5px;
 }
 
-li{
-    
+.recipeIcon{
+    color: black;
+    font-size: 16px;
+    justify-content: space-around;
+}
+
+#recipeIcon{
+    color: orange; 
 }

@@ -11,7 +11,7 @@ body {
 
 .navbar {
     width: 100%;
-    height: 60px;
+    height: 70px;
     color: black;
     align-items: center;
     background-color: rgb(255, 191, 138);
@@ -156,3 +156,84 @@ a:hover{
     font-size: 30px;
 }
 
+.recipes{
+    padding: 50px;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.recipesList{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    padding-top: 80px;
+}
+
+table{
+    width: 500px;
+    height: 500px;
+    
+    border-collapse: collapse;
+    border-radius: 30px;
+    border-style: hidden; 
+    box-shadow: 0 0 0 1px  rgb(85, 85, 85); 
+}
+
+td{
+    font-weight: 600;
+    width: 400px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    
+}
+
+tr{
+    border: 1px; 
+    border-style: solid;
+    border-color: black;
+}
+
+tr:hover{
+    background-color: rgba(255, 175, 100, 0.226);
+}
+
+.recipeTitle{
+    color: orange;
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+}
+
+.recipeHeader{
+    padding: 20px;
+}
+
+#pancakeImage{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center;
+}
+
+.littleHeader{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
+}
+
+li{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+}
+
+li{
+    
+}

@@ -156,7 +156,6 @@ p1{
     justify-content: center;
     place-items: center;
     padding: 30px;
-    margin: -10px;
 }
 
 
@@ -211,7 +210,6 @@ p1{
     height: 2rem;
     color: gray;
     padding: 20px;
-    margin: -10px;
 }
 
 .textBottom {

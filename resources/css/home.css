@@ -1,6 +1,8 @@
 body {
     font-family: "Open Sans", sans-serif;
     background-image: linear-gradient(180deg, rgba(255, 191, 138, 1) 0%, rgba(244, 226, 211, 1) 17%, rgba(255, 255, 255, 1) 29%);
+    margin: 0;
+    
 }
 
 #logo {

@@ -1,12 +1,12 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: white;
+    margin: 0;
 }
 
 #logo {
     width: 5%;
     padding-left: 3%;
-    margin-top: 0px;
+    padding-top: 1%;
 }
 
 .navbar {
